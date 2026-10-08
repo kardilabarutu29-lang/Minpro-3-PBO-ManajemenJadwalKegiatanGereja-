@@ -34,3 +34,31 @@ Program menggunakan pembagian package untuk membuat struktur kode lebih terorgan
 Secara umum, program menggunakan tiga bagian utama dalam pola MVC:
 
 <img width="557" height="317" alt="image" src="https://github.com/user-attachments/assets/eb77fc9c-a45b-4588-ad5a-4820e431af26" />
+
+---
+
+## 3. Alur Program
+
+Ketika program dijalankan, sistem akan menampilkan menu utama yang berisi pilihan pengelolaan kegiatan, petugas, tempat, dan keluar dari program.
+Menu utama terdiri dari:
+
+<img width="340" height="330" alt="image" src="https://github.com/user-attachments/assets/efd907f9-7e8e-4baa-8fee-23b2be3be883" />
+
+Pengguna memilih menu dengan memasukkan angka sesuai dengan pilihan yang tersedia.
+
+
+---
+
+### 3.1 Kelola Kegiatan
+
+Fitur yang tersedia:
+- Lihat (Read): Menampilkan seluruh data kegiatan.
+- Tambah (Create): Menambahkan data kegiatan baru.
+- Ubah (Update): Mengubah data kegiatan berdasarkan ID.
+- Hapus (Delete): Menghapus data kegiatan berdasarkan ID.
+  
+Data kegiatan terdiri dari informasi seperti ID, nama kegiatan, tanggal, jam, kategori, deskripsi, petugas, dan tempat.
+Kegiatan dibedakan menjadi dua kategori, yaitu:
+- Ibadah
+- Sosial
+
