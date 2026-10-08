@@ -4,7 +4,7 @@
 
 Sistem Manajemen Jadwal Kegiatan Gereja merupakan program berbasis Java yang digunakan untuk mengelola jadwal kegiatan, data petugas, dan tempat kegiatan gereja (OMK).
 
-Program dijalankan melalui Command Line Interface (CLI) dan menggunakan `ArrayList` sebagai media penyimpanan data selama program berjalan.
+Program dijalankan melalui Command Line Interface (CLI) dan menggunakan ArrayList sebagai media penyimpanan data selama program berjalan.
 
 Program menyediakan fitur CRUD (Create, Read, Update, Delete) pada tiga bagian utama, yaitu:
 
@@ -14,7 +14,7 @@ Program menyediakan fitur CRUD (Create, Read, Update, Delete) pada tiga bagian u
 
 Selain fitur CRUD, program juga dilengkapi dengan validasi input dan proteksi relasi data. Proteksi tersebut digunakan untuk mencegah penghapusan petugas atau tempat yang masih digunakan oleh suatu kegiatan.
 
-Program juga menerapkan beberapa konsep Pemrograman Berorientasi Objek (PBO), yaitu:
+Program juga menerapkan yaitu:
 
 - Encapsulation
 - Inheritance
@@ -33,18 +33,4 @@ Program menggunakan pembagian package untuk membuat struktur kode lebih terorgan
 
 Secara umum, program menggunakan tiga bagian utama dalam pola MVC:
 
-```text
-Source Packages
-│
-├── model
-│   ├── Kegiatan.java
-│   ├── KegiatanIbadah.java
-│   ├── KegiatanSosial.java
-│   ├── Petugas.java
-│   └── Tempat.java
-│
-├── view
-│   └── InputValidator.java
-│
-└── controller
-    └── ManajemenKegiatan.java
+<img width="557" height="317" alt="image" src="https://github.com/user-attachments/assets/eb77fc9c-a45b-4588-ad5a-4820e431af26" />
