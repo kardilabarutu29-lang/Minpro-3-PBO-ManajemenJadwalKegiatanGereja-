@@ -20,10 +20,12 @@ public class Main {
         do {
 
             System.out.println("\n=== SISTEM MANAJEMEN GEREJA ===");
-            System.out.println("1. Kelola Kegiatan");
-            System.out.println("2. Kelola Petugas");
-            System.out.println("3. Kelola Tempat");
-            System.out.println("0. Keluar");
+            System.out.println(
+                    "1. Kelola Kegiatan | "
+                    + "2. Kelola Petugas | "
+                    + "3. Kelola Tempat | "
+                    + "0. Keluar"
+            );
 
             pilih = InputValidator.inputAngka(
                     sc,
@@ -67,11 +69,13 @@ public class Main {
         do {
 
             System.out.println("\n--- KELOLA KEGIATAN ---");
-            System.out.println("1. Lihat");
-            System.out.println("2. Tambah");
-            System.out.println("3. Ubah");
-            System.out.println("4. Hapus");
-            System.out.println("0. Kembali");
+            System.out.println(
+                    "1. Lihat | "
+                    + "2. Tambah | "
+                    + "3. Ubah | "
+                    + "4. Hapus | "
+                    + "0. Kembali"
+            );
 
             pilih = InputValidator.inputAngka(
                     sc,
@@ -106,9 +110,9 @@ public class Main {
 
         } while (pilih != 0);
     }
- 
+
     // TAMBAH KEGIATAN
-    
+
     static void tambahKegiatan(
             Scanner sc,
             ManajemenKegiatan m) {
@@ -229,7 +233,7 @@ public class Main {
     }
 
     // UBAH KEGIATAN
- 
+
     static void editKegiatan(
             Scanner sc,
             ManajemenKegiatan m) {
@@ -267,6 +271,7 @@ public class Main {
                 );
 
         String kategori;
+
         while (true) {
 
             kategori =
@@ -274,6 +279,7 @@ public class Main {
                             sc,
                             "Kategori Baru (Ibadah/Sosial): "
                     );
+
             if (kategori.equalsIgnoreCase("Ibadah")
                     || kategori.equalsIgnoreCase("Sosial")) {
 
@@ -316,7 +322,7 @@ public class Main {
     }
 
     // HAPUS KEGIATAN
-    
+
     static void hapusKegiatan(
             Scanner sc,
             ManajemenKegiatan m) {
@@ -360,11 +366,13 @@ public class Main {
         do {
 
             System.out.println("\n--- KELOLA PETUGAS ---");
-            System.out.println("1. Lihat");
-            System.out.println("2. Tambah");
-            System.out.println("3. Ubah");
-            System.out.println("4. Hapus");
-            System.out.println("0. Kembali");
+            System.out.println(
+                    "1. Lihat | "
+                    + "2. Tambah | "
+                    + "3. Ubah | "
+                    + "4. Hapus | "
+                    + "0. Kembali"
+            );
 
             pilih = InputValidator.inputAngka(
                     sc,
@@ -450,7 +458,6 @@ public class Main {
         );
     }
 
-
     // UBAH PETUGAS
 
     static void editPetugas(
@@ -506,9 +513,8 @@ public class Main {
             );
         }
     }
-  
+
     // HAPUS PETUGAS
- 
 
     static void hapusPetugas(
             Scanner sc,
@@ -536,9 +542,7 @@ public class Main {
         }
     }
 
-
     // MENU TEMPAT
-
 
     static void menuTempat(
             Scanner sc,
@@ -549,11 +553,13 @@ public class Main {
         do {
 
             System.out.println("\n--- KELOLA TEMPAT ---");
-            System.out.println("1. Lihat");
-            System.out.println("2. Tambah");
-            System.out.println("3. Ubah");
-            System.out.println("4. Hapus");
-            System.out.println("0. Kembali");
+            System.out.println(
+                    "1. Lihat | "
+                    + "2. Tambah | "
+                    + "3. Ubah | "
+                    + "4. Hapus | "
+                    + "0. Kembali"
+            );
 
             pilih = InputValidator.inputAngka(
                     sc,
@@ -590,7 +596,6 @@ public class Main {
     }
 
     // TAMBAH TEMPAT
-
 
     static void tambahTempat(
             Scanner sc,
@@ -641,7 +646,6 @@ public class Main {
     }
 
     // UBAH TEMPAT
-
 
     static void editTempat(
             Scanner sc,
@@ -697,16 +701,16 @@ public class Main {
         }
     }
 
-   
     // HAPUS TEMPAT
-
 
     static void hapusTempat(
             Scanner sc,
             ManajemenKegiatan m) {
+
         System.out.println(
                 "\n--- HAPUS TEMPAT ---"
         );
+
         String id =
                 InputValidator.cariIdTempat(
                         sc,
