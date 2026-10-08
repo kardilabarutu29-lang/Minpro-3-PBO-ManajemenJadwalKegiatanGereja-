@@ -512,11 +512,19 @@ Contoh validasi dapat berupa ID yang sudah digunakan, ID yang tidak ditemukan, i
 
 ### 10.15 Proteksi Relasi Petugas
 
+
+<img width="652" height="256" alt="image" src="https://github.com/user-attachments/assets/1acf54a7-47f8-4206-8ff0-b1834d0021aa" />
+
+
 Menampilkan kondisi ketika pengguna mencoba menghapus petugas yang masih digunakan oleh kegiatan
+
 
 ---
 
 ### 10.16 Proteksi Relasi Tempat
+
+
+<img width="610" height="397" alt="image" src="https://github.com/user-attachments/assets/22561515-b3bc-4287-bb25-68dc9c385ac5" />
 
 
 Menampilkan kondisi ketika pengguna mencoba menghapus tempat yang masih digunakan oleh kegiatan.
